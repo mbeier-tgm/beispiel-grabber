@@ -33,6 +33,7 @@ Als Vorraussetzung für das Deployment, die Installation und die Verwendung des 
 
 Das Deployment des Beispiel Grabbers und die Installation der benötigten Modules funktioniert wie folgt:
 
+
 In der Bash und Zsh:
 ```bash
 git clone https://github.com/mbeier-tgm/beispiel-grabber.git
@@ -41,13 +42,41 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+In der cmd.exe:
+```bat
+git clone https://github.com/mbeier-tgm/beispiel-grabber.git
+python -m venv venv
+source venv\Scripts\activate.bat
+pip install -r requirements.txt
+```
+
+In der PowerShell:
+```bat
+git clone https://github.com/mbeier-tgm/beispiel-grabber.git
+python -m venv venv
+source venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+
 ## Verwendung
 
 Um den Beispiel Grabber zu starten muss das Python Virtual Environment aktiviert werden. Aus dieser heraus kann das BeispielGrabber-Skript einfach gestartet werden. Abhängig von der benutzten Shell funktioniert die Verwendung wie folgt:
 
-Bash und Zsh
+Bash und Zsh:
 ```bash
 source venv/bin/activate
+python BeispielGrabber.py
+```
+
+cmd.exe:
+```bat
+venv\Scripts\Activate.bat
+python BeispielGrabber.py
+```
+
+PowerShell:
+```ps
+venv\Scripts\Activate.ps1
 python BeispielGrabber.py
 ```
 
