@@ -27,7 +27,7 @@ Um den Beispiel Grabber verwenden zu können, müssen folgende Schritte durchgef
 
 ### Voraussetzungen
 
-Als Vorraussetzung für das Deployment, die Installation und die Verwendung des Beispiel Grabbers muss Python 3.x installiert werden. Für mehr siehe [hier](https://www.python.org/downloads/)
+Als Vorraussetzung für das Deployment, die Installation und die Verwendung des Beispiel Grabbers muss Python 3.x installiert werden. Für mehr Informationen diesbezüglich, siehe [hier](https://www.python.org/downloads/).
 
 ### Installation
 
@@ -52,6 +52,12 @@ python BeispielGrabber.py
 ```
 
 Die Beispiele werden dann in den `./Beispiele/` - Ordner heruntergeladen.
+
+Um das Virtual Environment wieder zu beenden, kann folgender Befehl verwendet werden:
+
+```bash
+deactivate
+```
 
 ## Lizenz
 
