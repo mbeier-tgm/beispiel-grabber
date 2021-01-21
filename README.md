@@ -19,7 +19,7 @@
 
 ## Über das Projekt
 
-Der Beispiel Grabber ist ein Python-Script, welches alle Aufgaben der Angewandten Mathematik von [aufgabenpool.at](https://aufgabenpool.at) automatisch herunterladet. Aktuell sind die Beispiele als Ganzes nur schwer zu finden, da jedes einzelne über eine Suchanfrage gesucht werden muss und die Download-Funktion ermöglicht jeweils nur den Download von einzelnen Beispielangaben. Dieses Script hingegen durchläuft die hinterliegenden Dateistruktur, in der alle Beispiele inklusive Angaben-PDF aufgelistet sind, und ladet die betreffenden Dateien herunter.
+Der Beispiel Grabber ist ein Python-Script, welches alle Aufgaben der Angewandten Mathematik von [aufgabenpool.at](https://aufgabenpool.at) automatisch herunterlädt. Aktuell sind die Beispiele als Ganzes nur schwer zu finden, da jedes einzelne über eine Suchanfrage gesucht werden muss und die Download-Funktion ermöglicht jeweils nur den Download von einzelnen Beispielangaben. Dieses Script hingegen durchläuft die hinterliegenden Dateistruktur, in der alle Beispiele inklusive Angaben-PDF aufgelistet sind, und ladet die betreffenden Dateien herunter.
 
 ## Erste Schritte
 
